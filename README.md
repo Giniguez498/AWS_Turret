@@ -1,4 +1,4 @@
-[README-v2.md](https://github.com/user-attachments/files/27369769/README-v2.md)
+
 # Autonomous 3D-Printed Tracking Turret
 
 An autonomous, computer-vision tracking turret featuring a custom 3D-printed gear system, 
