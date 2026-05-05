@@ -1,0 +1,8 @@
+name: Servo_camera_tracking
+description: ""
+ports: []
+bricks:
+- arduino:video_object_detection:
+    model: yolox-object-detection
+- arduino:web_ui: {}
+icon: 😀
