@@ -31,7 +31,7 @@ void setup() {
 
 void loop() {
   int speedPulse = 1428; 
-  int screenCenter = 200; // Center of your camera feed
+  int screenCenter = 200; // Center of camera feed
   
   //Calculate the distance from the center
   int error = target_x - screenCenter;

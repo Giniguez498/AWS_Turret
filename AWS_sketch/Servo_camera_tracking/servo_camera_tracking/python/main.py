@@ -23,12 +23,12 @@ def on_detections(detections: dict):
         x_min = coords[0] # The Left Edge
         x_max = coords[2] # The Right Edge
         
-        #Calculate Dead Center (Fixes the distance/scaling issue)
+        #Calculate Dead Center (distance/scaling issue)
         center_x = (x_min + x_max) / 2
         
         print(f"Target locked at X: {int(center_x)}")
         
-        #Send to C++ (Using the .call method)
+        #Send to C++ sketch (Using the .call method)
         Bridge.call("setTarget", int(center_x))
         
         #Send data to WebUI
@@ -40,7 +40,7 @@ def on_detections(detections: dict):
         ui.send_message("detection", message)
         
     else:
-        #SCAN MODE: Nobody is in frame, tell MCU to spin
+        #SCAN MODE: Nobody is in frame, tell MCU to spin servo.
         Bridge.call("setTarget", 0)
 
 detector.on_detect_all(on_detections)
