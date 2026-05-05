@@ -7,7 +7,7 @@ continuous 360° rotation via a central slip ring, and a heavy-duty 35kg servo.
 
 ## Tech Stack
 * **Software:** Python (Object Tracking), Arduino C/C++
-* **Hardware:** Arduino Uno Q, 35kg Servo, 22.4mm Slip Ring, 95mm Lazy Susan
+* **Hardware:** Arduino Uno Q, 35kg Servo, 22.4mm Slip Ring, 95mm Lazy Susan, 720p web cam
 * **Design & Fab:** Fusion 360, Bambu Lab P1S 
 
 ## Core Features
