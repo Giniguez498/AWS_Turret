@@ -1,0 +1,125 @@
+Flow report for ServoTest
+Sat Jun 20 23:57:42 2026
+Quartus Prime Version 26.1.0 Build 110 03/26/2026 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Flow Summary
+  2. Flow Settings
+  3. Flow Non-Default Global Settings
+  4. Flow Elapsed Time
+  5. Flow OS Summary
+  6. Flow Log
+  7. Legal Notice
+
+
+
++------------------------------------------------------------------------------+
+; Flow Summary                                                                 ;
++---------------------------------+--------------------------------------------+
+; Flow Status                     ; Successful - Sat Jun 20 23:57:41 2026      ;
+; Quartus Prime Version           ; 26.1.0 Build 110 03/26/2026 SC Pro Edition ;
+; Revision Name                   ; ServoTest                                  ;
+; Top-level Entity Name           ; servo_test                                 ;
+; Family                          ; Agilex 5                                   ;
+; Device                          ; A5ED013BB32AE4SCS                          ;
+; Timing Models                   ; Final                                      ;
+; Power Models                    ; Final                                      ;
+; Device Status                   ; Final                                      ;
+; Logic utilization (in ALMs)     ; 64 / 46,800 ( < 1 % )                      ;
+; Total dedicated logic registers ; 53                                         ;
+; Total pins                      ; 41 / 414 ( 10 % )                          ;
+; Total block memory bits         ; 0 / 7,331,840 ( 0 % )                      ;
+; Total RAM Blocks                ; 0 / 358 ( 0 % )                            ;
+; Total DSP Blocks                ; 1 / 376 ( < 1 % )                          ;
+; Total GTS Transceiver Channels  ; 0 / 4 ( 0 % )                              ;
+; Total HSSI Ethernet Channels    ; 0 / 1 ( 0 % )                              ;
+; Total HSSI PCIEs                ; 0 / 1 ( 0 % )                              ;
+; Total HSSI HPS                  ; 0 / 1 ( 0 % )                              ;
+; Total PLLs                      ; 0 / 11 ( 0 % )                             ;
++---------------------------------+--------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 06/20/2026 23:55:44 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; ServoTest           ;
++-------------------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                         ;
++--------------------------+--------------------------------+---------------+-------------+----------------+
+; Assignment Name          ; Value                          ; Default Value ; Entity Name ; Section Id     ;
++--------------------------+--------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID    ; 66679909531987.178202494422496 ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT   ; Verilog Hdl                    ; --            ; --          ; eda_simulation ;
+; EDA_TIME_SCALE           ; 1 ps                           ; --            ; --          ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP   ; 100                            ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP   ; 0                              ; --            ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY ; C:/AWS/Servo_PWM/output_files  ; --            ; --          ; --             ;
+; TOP_LEVEL_ENTITY         ; servo_test                     ; ServoTest     ; --          ; --             ;
++--------------------------+--------------------------------+---------------+-------------+----------------+
+
+
++------------------------------------------------------+
+; Flow Elapsed Time                                    ;
++-----------------+--------------+---------------------+
+; Module Name     ; Elapsed Time ; Peak Virtual Memory ;
++-----------------+--------------+---------------------+
+; Synthesis       ; 00:00:09     ; 832 MB              ;
+; Fitter          ; 00:01:24     ; 4866 MB             ;
+; Timing Analyzer ; 00:00:07     ; 933 MB              ;
+; Assembler       ; 00:00:12     ; 2758 MB             ;
+; Total           ; 00:01:52     ; --                  ;
++-----------------+--------------+---------------------+
+
+
++-------------------------------------------------------------------------------+
+; Flow OS Summary                                                               ;
++-----------------+------------------+------------+------------+----------------+
+; Module Name     ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++-----------------+------------------+------------+------------+----------------+
+; Synthesis       ; DESKTOP-QD1UR7G  ; Windows 11 ; 10.0.26200 ; x86_64         ;
+; Fitter          ; DESKTOP-QD1UR7G  ; Windows 11 ; 10.0.26200 ; x86_64         ;
+; Timing Analyzer ; DESKTOP-QD1UR7G  ; Windows 11 ; 10.0.26200 ; x86_64         ;
+; Assembler       ; DESKTOP-QD1UR7G  ; Windows 11 ; 10.0.26200 ; x86_64         ;
++-----------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_syn --read_settings_files=on --write_settings_files=off ServoTest -c ServoTest
+quartus_fit --read_settings_files=on --write_settings_files=off ServoTest -c ServoTest
+quartus_sta ServoTest -c ServoTest --mode=finalize
+quartus_asm --read_settings_files=on --write_settings_files=off ServoTest -c ServoTest
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2026  Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Altera and sold by Altera or its authorized distributors.  Please
+refer to the Altera Software License Subscription Agreements 
+on the Quartus Prime software download page.
+
+
+

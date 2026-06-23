@@ -1,0 +1,60 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/AWS/Servo_PWM
+vServo
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1781996112
+!i10b 1
+!s100 3[i2LgP4;00n2onhOeIg40
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I6Q_nc`SgJkobmXzIh=J0K0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1781994801
+Z6 8./Servo.sv
+Z7 F./Servo.sv
+!i122 21
+L0 10 53
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1781996112.000000
+!s107 ./Servo.sv|
+Z10 !s90 -reportprogress|300|./Servo.sv|
+!i113 1
+Z11 tCvgOpt 0
+n@servo
+vservo_testbench
+R1
+R2
+!i10b 1
+!s100 S11=TKRh>;5WTWzbk8fVE2
+R3
+I0b_L06[]4V1EAEk;_`AcZ0
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 21
+L0 69 56
+R8
+r1
+!s85 0
+31
+R9
+Z12 !s107 ./Servo.sv|
+R10
+!i113 1
+R11

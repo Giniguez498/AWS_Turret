@@ -1,0 +1,20 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'CLOCK0_50~derived'
+Slack : -1.207
+TNS   : -41.536
+Corner: Slow fix4 0C Model
+
+Type  : Hold 'CLOCK0_50~derived'
+Slack : 0.121
+TNS   : 0.000
+Corner: Fast fix4 0C Model
+
+Type  : Minimum Pulse Width 'CLOCK0_50~derived'
+Slack : -1.039
+TNS   : -116.008
+Corner: Slow fix4 100C Model
+
+------------------------------------------------------------

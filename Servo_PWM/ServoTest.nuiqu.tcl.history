@@ -1,0 +1,4 @@
+# TCL commands history
+# Sat Jun 20 17:26:14 2026
+dni::selection -action set -object {unfolded_instance_bus::servo_test::delay_counter}
+dni::selection -action set -object {unfolded_instance_bus::servo_test::i93}
